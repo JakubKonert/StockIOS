@@ -1,0 +1,18 @@
+//
+//  StockPriceResponse.swift
+//  StockIOS
+//
+//  Created by student on 27/04/2025.
+//
+
+import Foundation
+
+struct StockPriceResponse : Decodable {
+    let tradingSymbol : String
+    let date : Date
+    let open : Double
+    let high : Double
+    let low : Double
+    let close : Double
+    let Volume : Double
+}
