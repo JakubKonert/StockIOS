@@ -53,6 +53,30 @@
 		3F3E24022DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E24012DBEB9B200F515FE /* StockSplitsViewController.swift */; };
 		3F3E24032DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E24012DBEB9B200F515FE /* StockSplitsViewController.swift */; };
 		3F3E24042DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E24012DBEB9B200F515FE /* StockSplitsViewController.swift */; };
+		3FF6AF842DBFDD8D005A4653 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF832DBFDD8D005A4653 /* Menu.storyboard */; };
+		3FF6AF852DBFDD8D005A4653 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF832DBFDD8D005A4653 /* Menu.storyboard */; };
+		3FF6AF862DBFDD8D005A4653 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF832DBFDD8D005A4653 /* Menu.storyboard */; };
+		3FF6AF882DBFDDBE005A4653 /* UserManual.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF872DBFDDBE005A4653 /* UserManual.storyboard */; };
+		3FF6AF892DBFDDBE005A4653 /* UserManual.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF872DBFDDBE005A4653 /* UserManual.storyboard */; };
+		3FF6AF8A2DBFDDBE005A4653 /* UserManual.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF872DBFDDBE005A4653 /* UserManual.storyboard */; };
+		3FF6AF8C2DBFDDE9005A4653 /* StockSymbols.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF8B2DBFDDE9005A4653 /* StockSymbols.storyboard */; };
+		3FF6AF8D2DBFDDE9005A4653 /* StockSymbols.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF8B2DBFDDE9005A4653 /* StockSymbols.storyboard */; };
+		3FF6AF8E2DBFDDE9005A4653 /* StockSymbols.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF8B2DBFDDE9005A4653 /* StockSymbols.storyboard */; };
+		3FF6AF902DBFDE18005A4653 /* StockPrices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF8F2DBFDE18005A4653 /* StockPrices.storyboard */; };
+		3FF6AF912DBFDE18005A4653 /* StockPrices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF8F2DBFDE18005A4653 /* StockPrices.storyboard */; };
+		3FF6AF922DBFDE18005A4653 /* StockPrices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF8F2DBFDE18005A4653 /* StockPrices.storyboard */; };
+		3FF6AF942DBFDE37005A4653 /* StockSplits.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF932DBFDE37005A4653 /* StockSplits.storyboard */; };
+		3FF6AF952DBFDE37005A4653 /* StockSplits.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF932DBFDE37005A4653 /* StockSplits.storyboard */; };
+		3FF6AF962DBFDE37005A4653 /* StockSplits.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF932DBFDE37005A4653 /* StockSplits.storyboard */; };
+		3FF6AFA02DBFE11E005A4653 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AF9F2DBFE11E005A4653 /* MenuViewController.swift */; };
+		3FF6AFA12DBFE11E005A4653 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AF9F2DBFE11E005A4653 /* MenuViewController.swift */; };
+		3FF6AFA22DBFE11E005A4653 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AF9F2DBFE11E005A4653 /* MenuViewController.swift */; };
+		3FF6AFA42DBFF502005A4653 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA32DBFF502005A4653 /* BaseViewController.swift */; };
+		3FF6AFA52DBFF502005A4653 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA32DBFF502005A4653 /* BaseViewController.swift */; };
+		3FF6AFA62DBFF502005A4653 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA32DBFF502005A4653 /* BaseViewController.swift */; };
+		3FF6AFA82DC00DDA005A4653 /* UserManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */; };
+		3FF6AFA92DC00DDA005A4653 /* UserManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */; };
+		3FF6AFAA2DC00DDA005A4653 /* UserManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +123,14 @@
 		3F3E23F92DBEB8F900F515FE /* StockPriceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPriceRequest.swift; sourceTree = "<group>"; };
 		3F3E23FD2DBEB96C00F515FE /* StockSymbolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSymbolsViewController.swift; sourceTree = "<group>"; };
 		3F3E24012DBEB9B200F515FE /* StockSplitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSplitsViewController.swift; sourceTree = "<group>"; };
+		3FF6AF832DBFDD8D005A4653 /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		3FF6AF872DBFDDBE005A4653 /* UserManual.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserManual.storyboard; sourceTree = "<group>"; };
+		3FF6AF8B2DBFDDE9005A4653 /* StockSymbols.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StockSymbols.storyboard; sourceTree = "<group>"; };
+		3FF6AF8F2DBFDE18005A4653 /* StockPrices.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StockPrices.storyboard; sourceTree = "<group>"; };
+		3FF6AF932DBFDE37005A4653 /* StockSplits.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StockSplits.storyboard; sourceTree = "<group>"; };
+		3FF6AF9F2DBFE11E005A4653 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3FF6AFA32DBFF502005A4653 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManualViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +181,7 @@
 		3F3E23942DBEB2F900F515FE /* StockIOS */ = {
 			isa = PBXGroup;
 			children = (
+				3FF6AF822DBFDD45005A4653 /* Views */,
 				3F3E23CD2DBEB42900F515FE /* ViewModel */,
 				3F3E23CC2DBEB41500F515FE /* Utils */,
 				3F3E23CB2DBEB3EF00F515FE /* Services */,
@@ -189,6 +222,9 @@
 			children = (
 				3F3E23FD2DBEB96C00F515FE /* StockSymbolsViewController.swift */,
 				3F3E24012DBEB9B200F515FE /* StockSplitsViewController.swift */,
+				3FF6AF9F2DBFE11E005A4653 /* MenuViewController.swift */,
+				3FF6AFA32DBFF502005A4653 /* BaseViewController.swift */,
+				3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -260,6 +296,18 @@
 				3F3E23E92DBEB78D00F515FE /* StockSymbolRequest.swift */,
 			);
 			path = StockSymbol;
+			sourceTree = "<group>";
+		};
+		3FF6AF822DBFDD45005A4653 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FF6AF832DBFDD8D005A4653 /* Menu.storyboard */,
+				3FF6AF872DBFDDBE005A4653 /* UserManual.storyboard */,
+				3FF6AF8B2DBFDDE9005A4653 /* StockSymbols.storyboard */,
+				3FF6AF8F2DBFDE18005A4653 /* StockPrices.storyboard */,
+				3FF6AF932DBFDE37005A4653 /* StockSplits.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,9 +414,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF6AF942DBFDE37005A4653 /* StockSplits.storyboard in Resources */,
 				3F3E23A52DBEB2FA00F515FE /* LaunchScreen.storyboard in Resources */,
 				3F3E23A22DBEB2FA00F515FE /* Assets.xcassets in Resources */,
 				3F3E239D2DBEB2F900F515FE /* Main.storyboard in Resources */,
+				3FF6AF8C2DBFDDE9005A4653 /* StockSymbols.storyboard in Resources */,
+				3FF6AF882DBFDDBE005A4653 /* UserManual.storyboard in Resources */,
+				3FF6AF842DBFDD8D005A4653 /* Menu.storyboard in Resources */,
+				3FF6AF902DBFDE18005A4653 /* StockPrices.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +429,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF6AF8D2DBFDDE9005A4653 /* StockSymbols.storyboard in Resources */,
+				3FF6AF852DBFDD8D005A4653 /* Menu.storyboard in Resources */,
+				3FF6AF892DBFDDBE005A4653 /* UserManual.storyboard in Resources */,
+				3FF6AF912DBFDE18005A4653 /* StockPrices.storyboard in Resources */,
+				3FF6AF952DBFDE37005A4653 /* StockSplits.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +441,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF6AF8E2DBFDDE9005A4653 /* StockSymbols.storyboard in Resources */,
+				3FF6AF862DBFDD8D005A4653 /* Menu.storyboard in Resources */,
+				3FF6AF8A2DBFDDBE005A4653 /* UserManual.storyboard in Resources */,
+				3FF6AF922DBFDE18005A4653 /* StockPrices.storyboard in Resources */,
+				3FF6AF962DBFDE37005A4653 /* StockSplits.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,12 +461,15 @@
 				3F3E23A02DBEB2F900F515FE /* StockIOS.xcdatamodeld in Sources */,
 				3F3E23D72DBEB5A300F515FE /* StockSymbolsViewModel.swift in Sources */,
 				3F3E23F62DBEB88D00F515FE /* StockPriceResponse.swift in Sources */,
+				3FF6AFA42DBFF502005A4653 /* BaseViewController.swift in Sources */,
 				3F3E23EE2DBEB7DA00F515FE /* StockSplitResponse.swift in Sources */,
 				3F3E23DF2DBEB62E00F515FE /* WebService.swift in Sources */,
 				3F3E239A2DBEB2F900F515FE /* ViewController.swift in Sources */,
 				3F3E23E62DBEB6EB00F515FE /* StockSymbolResponse.swift in Sources */,
 				3F3E23962DBEB2F900F515FE /* AppDelegate.swift in Sources */,
 				3F3E23F22DBEB82C00F515FE /* StockSplitRequest.swift in Sources */,
+				3FF6AFA82DC00DDA005A4653 /* UserManualViewController.swift in Sources */,
+				3FF6AFA02DBFE11E005A4653 /* MenuViewController.swift in Sources */,
 				3F3E23DB2DBEB5DA00F515FE /* Constants.swift in Sources */,
 				3F3E24022DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */,
 				3F3E23982DBEB2F900F515FE /* SceneDelegate.swift in Sources */,
@@ -419,7 +485,10 @@
 				3F3E23D42DBEB55200F515FE /* StockSplitsViewModel.swift in Sources */,
 				3F3E23E72DBEB6EB00F515FE /* StockSymbolResponse.swift in Sources */,
 				3F3E23EF2DBEB7DA00F515FE /* StockSplitResponse.swift in Sources */,
+				3FF6AFA12DBFE11E005A4653 /* MenuViewController.swift in Sources */,
 				3F3E24032DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */,
+				3FF6AFA92DC00DDA005A4653 /* UserManualViewController.swift in Sources */,
+				3FF6AFA52DBFF502005A4653 /* BaseViewController.swift in Sources */,
 				3F3E23FB2DBEB8F900F515FE /* StockPriceRequest.swift in Sources */,
 				3F3E23F72DBEB88D00F515FE /* StockPriceResponse.swift in Sources */,
 				3F3E23EB2DBEB78D00F515FE /* StockSymbolRequest.swift in Sources */,
@@ -437,17 +506,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3E23E12DBEB62E00F515FE /* WebService.swift in Sources */,
+				3FF6AFA22DBFE11E005A4653 /* MenuViewController.swift in Sources */,
 				3F3E23DD2DBEB5DA00F515FE /* Constants.swift in Sources */,
 				3F3E23F02DBEB7DA00F515FE /* StockSplitResponse.swift in Sources */,
 				3F3E24002DBEB96C00F515FE /* StockSymbolsViewController.swift in Sources */,
 				3F3E23F42DBEB82C00F515FE /* StockSplitRequest.swift in Sources */,
 				3F3E23E82DBEB6EB00F515FE /* StockSymbolResponse.swift in Sources */,
 				3F3E24042DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */,
+				3FF6AFAA2DC00DDA005A4653 /* UserManualViewController.swift in Sources */,
 				3F3E23BC2DBEB2FA00F515FE /* StockIOSUITestsLaunchTests.swift in Sources */,
 				3F3E23FC2DBEB8F900F515FE /* StockPriceRequest.swift in Sources */,
 				3F3E23D52DBEB55200F515FE /* StockSplitsViewModel.swift in Sources */,
 				3F3E23BA2DBEB2FA00F515FE /* StockIOSUITests.swift in Sources */,
 				3F3E23EC2DBEB78D00F515FE /* StockSymbolRequest.swift in Sources */,
+				3FF6AFA62DBFF502005A4653 /* BaseViewController.swift in Sources */,
 				3F3E23F82DBEB88D00F515FE /* StockPriceResponse.swift in Sources */,
 				3F3E23D92DBEB5A300F515FE /* StockSymbolsViewModel.swift in Sources */,
 			);
