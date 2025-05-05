@@ -16,6 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="Theme" translatesAutoresizingMaskIntoConstraints="NO" id="stS-Zp-O6W">
+                                <rect key="frame" x="355" y="821" width="51" height="31"/>
+                                <connections>
+                                    <action selector="changeTheme:" destination="Y6W-OH-hqX" eventType="valueChanged" id="IZD-7y-Nfl"/>
+                                </connections>
+                            </switch>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jv3-3a-Yb3">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -23,12 +29,6 @@
                                     <navigationItem title="Menu" id="LWN-TI-rgX"/>
                                 </items>
                             </navigationBar>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="Theme" translatesAutoresizingMaskIntoConstraints="NO" id="stS-Zp-O6W">
-                                <rect key="frame" x="355" y="821" width="51" height="31"/>
-                                <connections>
-                                    <action selector="changeTheme:" destination="Y6W-OH-hqX" eventType="valueChanged" id="IZD-7y-Nfl"/>
-                                </connections>
-                            </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbt-rS-lEr">
                                 <rect key="frame" x="133" y="263" width="161" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -68,6 +68,7 @@
                     <navigationItem key="navigationItem" id="ztc-ta-Qo7"/>
                     <connections>
                         <outlet property="StockSymbolsButton" destination="sbt-rS-lEr" id="Pek-IB-dW4"/>
+                        <outlet property="stockSymbolsButton" destination="sbt-rS-lEr" id="iA5-PR-NsL"/>
                         <outlet property="themeSwitch" destination="stS-Zp-O6W" id="f5f-G4-R5R"/>
                         <outlet property="userManualButton" destination="c76-W5-mzu" id="Fa0-sJ-0Qa"/>
                     </connections>

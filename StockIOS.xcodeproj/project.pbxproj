@@ -83,6 +83,15 @@
 		3FF6AFB12DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB02DC901A6005A4653 /* StockSymbolsTableViewController.swift */; };
 		3FF6AFB22DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB02DC901A6005A4653 /* StockSymbolsTableViewController.swift */; };
 		3FF6AFB32DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB02DC901A6005A4653 /* StockSymbolsTableViewController.swift */; };
+		3FF6AFB92DC94BDE005A4653 /* PricesSplitsSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB82DC94BDE005A4653 /* PricesSplitsSelection.storyboard */; };
+		3FF6AFBA2DC94BDE005A4653 /* PricesSplitsSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB82DC94BDE005A4653 /* PricesSplitsSelection.storyboard */; };
+		3FF6AFBB2DC94BDE005A4653 /* PricesSplitsSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB82DC94BDE005A4653 /* PricesSplitsSelection.storyboard */; };
+		3FF6AFBD2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFBC2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift */; };
+		3FF6AFBE2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFBC2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift */; };
+		3FF6AFBF2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFBC2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift */; };
+		3FF6AFC12DC954CE005A4653 /* StockPricesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFC02DC954CE005A4653 /* StockPricesViewController.swift */; };
+		3FF6AFC22DC954CE005A4653 /* StockPricesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFC02DC954CE005A4653 /* StockPricesViewController.swift */; };
+		3FF6AFC32DC954CE005A4653 /* StockPricesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFC02DC954CE005A4653 /* StockPricesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +148,9 @@
 		3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManualViewController.swift; sourceTree = "<group>"; };
 		3FF6AFAC2DC9017D005A4653 /* StockSplitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSplitsTableViewController.swift; sourceTree = "<group>"; };
 		3FF6AFB02DC901A6005A4653 /* StockSymbolsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSymbolsTableViewController.swift; sourceTree = "<group>"; };
+		3FF6AFB82DC94BDE005A4653 /* PricesSplitsSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PricesSplitsSelection.storyboard; sourceTree = "<group>"; };
+		3FF6AFBC2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricesSplitsSelectionViewController.swift; sourceTree = "<group>"; };
+		3FF6AFC02DC954CE005A4653 /* StockPricesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPricesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +246,8 @@
 				3FF6AF9F2DBFE11E005A4653 /* MenuViewController.swift */,
 				3FF6AFA32DBFF502005A4653 /* BaseViewController.swift */,
 				3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */,
+				3FF6AFBC2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift */,
+				3FF6AFC02DC954CE005A4653 /* StockPricesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -315,6 +329,7 @@
 				3FF6AF8B2DBFDDE9005A4653 /* StockSymbols.storyboard */,
 				3FF6AF8F2DBFDE18005A4653 /* StockPrices.storyboard */,
 				3FF6AF932DBFDE37005A4653 /* StockSplits.storyboard */,
+				3FF6AFB82DC94BDE005A4653 /* PricesSplitsSelection.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -436,6 +451,7 @@
 				3F3E23A52DBEB2FA00F515FE /* LaunchScreen.storyboard in Resources */,
 				3F3E23A22DBEB2FA00F515FE /* Assets.xcassets in Resources */,
 				3F3E239D2DBEB2F900F515FE /* Main.storyboard in Resources */,
+				3FF6AFB92DC94BDE005A4653 /* PricesSplitsSelection.storyboard in Resources */,
 				3FF6AF8C2DBFDDE9005A4653 /* StockSymbols.storyboard in Resources */,
 				3FF6AF882DBFDDBE005A4653 /* UserManual.storyboard in Resources */,
 				3FF6AF842DBFDD8D005A4653 /* Menu.storyboard in Resources */,
@@ -451,6 +467,7 @@
 				3FF6AF852DBFDD8D005A4653 /* Menu.storyboard in Resources */,
 				3FF6AF892DBFDDBE005A4653 /* UserManual.storyboard in Resources */,
 				3FF6AF912DBFDE18005A4653 /* StockPrices.storyboard in Resources */,
+				3FF6AFBA2DC94BDE005A4653 /* PricesSplitsSelection.storyboard in Resources */,
 				3FF6AF952DBFDE37005A4653 /* StockSplits.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +480,7 @@
 				3FF6AF862DBFDD8D005A4653 /* Menu.storyboard in Resources */,
 				3FF6AF8A2DBFDDBE005A4653 /* UserManual.storyboard in Resources */,
 				3FF6AF922DBFDE18005A4653 /* StockPrices.storyboard in Resources */,
+				3FF6AFBB2DC94BDE005A4653 /* PricesSplitsSelection.storyboard in Resources */,
 				3FF6AF962DBFDE37005A4653 /* StockSplits.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +494,7 @@
 			files = (
 				3F3E23FA2DBEB8F900F515FE /* StockPriceRequest.swift in Sources */,
 				3F3E23FE2DBEB96C00F515FE /* StockSymbolsViewController.swift in Sources */,
+				3FF6AFBD2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift in Sources */,
 				3F3E23A02DBEB2F900F515FE /* StockIOS.xcdatamodeld in Sources */,
 				3F3E23D72DBEB5A300F515FE /* StockSymbolsViewModel.swift in Sources */,
 				3F3E23F62DBEB88D00F515FE /* StockPriceResponse.swift in Sources */,
@@ -486,6 +505,7 @@
 				3F3E239A2DBEB2F900F515FE /* ViewController.swift in Sources */,
 				3FF6AFAD2DC9017D005A4653 /* StockSplitsTableViewController.swift in Sources */,
 				3F3E23E62DBEB6EB00F515FE /* StockSymbolResponse.swift in Sources */,
+				3FF6AFC12DC954CE005A4653 /* StockPricesViewController.swift in Sources */,
 				3F3E23962DBEB2F900F515FE /* AppDelegate.swift in Sources */,
 				3F3E23F22DBEB82C00F515FE /* StockSplitRequest.swift in Sources */,
 				3FF6AFA82DC00DDA005A4653 /* UserManualViewController.swift in Sources */,
@@ -509,6 +529,7 @@
 				3FF6AFA12DBFE11E005A4653 /* MenuViewController.swift in Sources */,
 				3F3E24032DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */,
 				3FF6AFAE2DC9017D005A4653 /* StockSplitsTableViewController.swift in Sources */,
+				3FF6AFC22DC954CE005A4653 /* StockPricesViewController.swift in Sources */,
 				3FF6AFA92DC00DDA005A4653 /* UserManualViewController.swift in Sources */,
 				3FF6AFA52DBFF502005A4653 /* BaseViewController.swift in Sources */,
 				3F3E23FB2DBEB8F900F515FE /* StockPriceRequest.swift in Sources */,
@@ -516,6 +537,7 @@
 				3F3E23EB2DBEB78D00F515FE /* StockSymbolRequest.swift in Sources */,
 				3F3E23D82DBEB5A300F515FE /* StockSymbolsViewModel.swift in Sources */,
 				3F3E23B02DBEB2FA00F515FE /* StockIOSTests.swift in Sources */,
+				3FF6AFBE2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift in Sources */,
 				3F3E23E02DBEB62E00F515FE /* WebService.swift in Sources */,
 				3F3E23F32DBEB82C00F515FE /* StockSplitRequest.swift in Sources */,
 				3F3E23FF2DBEB96C00F515FE /* StockSymbolsViewController.swift in Sources */,
@@ -529,10 +551,12 @@
 			files = (
 				3F3E23E12DBEB62E00F515FE /* WebService.swift in Sources */,
 				3FF6AFA22DBFE11E005A4653 /* MenuViewController.swift in Sources */,
+				3FF6AFBF2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift in Sources */,
 				3F3E23DD2DBEB5DA00F515FE /* Constants.swift in Sources */,
 				3F3E23F02DBEB7DA00F515FE /* StockSplitResponse.swift in Sources */,
 				3F3E24002DBEB96C00F515FE /* StockSymbolsViewController.swift in Sources */,
 				3F3E23F42DBEB82C00F515FE /* StockSplitRequest.swift in Sources */,
+				3FF6AFC32DC954CE005A4653 /* StockPricesViewController.swift in Sources */,
 				3F3E23E82DBEB6EB00F515FE /* StockSymbolResponse.swift in Sources */,
 				3F3E24042DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */,
 				3FF6AFAA2DC00DDA005A4653 /* UserManualViewController.swift in Sources */,

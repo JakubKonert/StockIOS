@@ -14,6 +14,7 @@ class StockSymbolsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.edgesForExtendedLayout = []
         configureUI()
         
         Task {
@@ -49,6 +50,20 @@ class StockSymbolsTableViewController: UITableViewController {
         await vm.populateStockSymbols(url: Constants.Urls.stockSymbolsUrl, apiKey: Constants.APIcredentials.apiKey)
         DispatchQueue.main.async{
             self.tableView.reloadData()
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        let stock = vm.stockSymbols[indexPath.row]
+        
+        let storyboard = UIStoryboard(name: "PricesSplitsSelection", bundle: nil)
+        
+        if let detailsVC = storyboard.instantiateViewController(withIdentifier: "PricesSplitsSelection") as? PricesSplitsSelectionViewController {
+            detailsVC.tradingSymbol = stock.tradingSymbol
+            detailsVC.registrantName = stock.registrantName
+            
+            navigationController?.pushViewController(detailsVC, animated: true)
         }
     }
 }
