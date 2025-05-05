@@ -77,6 +77,12 @@
 		3FF6AFA82DC00DDA005A4653 /* UserManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */; };
 		3FF6AFA92DC00DDA005A4653 /* UserManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */; };
 		3FF6AFAA2DC00DDA005A4653 /* UserManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */; };
+		3FF6AFAD2DC9017D005A4653 /* StockSplitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFAC2DC9017D005A4653 /* StockSplitsTableViewController.swift */; };
+		3FF6AFAE2DC9017D005A4653 /* StockSplitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFAC2DC9017D005A4653 /* StockSplitsTableViewController.swift */; };
+		3FF6AFAF2DC9017D005A4653 /* StockSplitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFAC2DC9017D005A4653 /* StockSplitsTableViewController.swift */; };
+		3FF6AFB12DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB02DC901A6005A4653 /* StockSymbolsTableViewController.swift */; };
+		3FF6AFB22DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB02DC901A6005A4653 /* StockSymbolsTableViewController.swift */; };
+		3FF6AFB32DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB02DC901A6005A4653 /* StockSymbolsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +137,8 @@
 		3FF6AF9F2DBFE11E005A4653 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		3FF6AFA32DBFF502005A4653 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManualViewController.swift; sourceTree = "<group>"; };
+		3FF6AFAC2DC9017D005A4653 /* StockSplitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSplitsTableViewController.swift; sourceTree = "<group>"; };
+		3FF6AFB02DC901A6005A4653 /* StockSymbolsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSymbolsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +228,7 @@
 		3F3E23C82DBEB3AA00F515FE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3FF6AFAB2DC9013C005A4653 /* TableViewController */,
 				3F3E23FD2DBEB96C00F515FE /* StockSymbolsViewController.swift */,
 				3F3E24012DBEB9B200F515FE /* StockSplitsViewController.swift */,
 				3FF6AF9F2DBFE11E005A4653 /* MenuViewController.swift */,
@@ -308,6 +317,15 @@
 				3FF6AF932DBFDE37005A4653 /* StockSplits.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3FF6AFAB2DC9013C005A4653 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FF6AFAC2DC9017D005A4653 /* StockSplitsTableViewController.swift */,
+				3FF6AFB02DC901A6005A4653 /* StockSymbolsTableViewController.swift */,
+			);
+			path = TableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,7 +482,9 @@
 				3FF6AFA42DBFF502005A4653 /* BaseViewController.swift in Sources */,
 				3F3E23EE2DBEB7DA00F515FE /* StockSplitResponse.swift in Sources */,
 				3F3E23DF2DBEB62E00F515FE /* WebService.swift in Sources */,
+				3FF6AFB12DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */,
 				3F3E239A2DBEB2F900F515FE /* ViewController.swift in Sources */,
+				3FF6AFAD2DC9017D005A4653 /* StockSplitsTableViewController.swift in Sources */,
 				3F3E23E62DBEB6EB00F515FE /* StockSymbolResponse.swift in Sources */,
 				3F3E23962DBEB2F900F515FE /* AppDelegate.swift in Sources */,
 				3F3E23F22DBEB82C00F515FE /* StockSplitRequest.swift in Sources */,
@@ -484,9 +504,11 @@
 			files = (
 				3F3E23D42DBEB55200F515FE /* StockSplitsViewModel.swift in Sources */,
 				3F3E23E72DBEB6EB00F515FE /* StockSymbolResponse.swift in Sources */,
+				3FF6AFB22DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */,
 				3F3E23EF2DBEB7DA00F515FE /* StockSplitResponse.swift in Sources */,
 				3FF6AFA12DBFE11E005A4653 /* MenuViewController.swift in Sources */,
 				3F3E24032DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */,
+				3FF6AFAE2DC9017D005A4653 /* StockSplitsTableViewController.swift in Sources */,
 				3FF6AFA92DC00DDA005A4653 /* UserManualViewController.swift in Sources */,
 				3FF6AFA52DBFF502005A4653 /* BaseViewController.swift in Sources */,
 				3F3E23FB2DBEB8F900F515FE /* StockPriceRequest.swift in Sources */,
@@ -514,6 +536,8 @@
 				3F3E23E82DBEB6EB00F515FE /* StockSymbolResponse.swift in Sources */,
 				3F3E24042DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */,
 				3FF6AFAA2DC00DDA005A4653 /* UserManualViewController.swift in Sources */,
+				3FF6AFB32DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */,
+				3FF6AFAF2DC9017D005A4653 /* StockSplitsTableViewController.swift in Sources */,
 				3F3E23BC2DBEB2FA00F515FE /* StockIOSUITestsLaunchTests.swift in Sources */,
 				3F3E23FC2DBEB8F900F515FE /* StockPriceRequest.swift in Sources */,
 				3F3E23D52DBEB55200F515FE /* StockSplitsViewModel.swift in Sources */,
