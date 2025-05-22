@@ -9,13 +9,18 @@ import Foundation
 
 class StockSplitsViewModel {
     
+    private let webService:WebServiceProtocol
     private(set) var stockSplits: [StockSplitViewModel] = []
+    
+    init(webService: WebServiceProtocol = WebService()){
+        self.webService = webService
+    }
     
     func populateStockSplits(url: String, apiKey: String, identifier: String)
     async {
         do {
            let stockSplits = try await
-            WebService().getStockSplits(url: url, apiKey: apiKey, identifier: identifier)
+            webService.getStockSplits(url: url, apiKey: apiKey, identifier: identifier)
             self.stockSplits =
             stockSplits.map(StockSplitViewModel.init)
         }

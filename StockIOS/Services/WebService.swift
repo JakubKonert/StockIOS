@@ -7,7 +7,7 @@
 
 import Foundation
 
-class WebService {
+class WebService: WebServiceProtocol {
     
     enum FinancialAPIError: Error {
         case invalidServerResponse

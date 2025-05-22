@@ -7,11 +7,16 @@
 
 class StockSymbolsViewModel {
     
+    private let webService: WebServiceProtocol
     private(set) var stockSymbols: [StockSymbolViewModel] = []
+    
+    init(webService:WebServiceProtocol = WebService()){
+        self.webService = webService
+    }
     
     func populateStockSymbols(url: String, apiKey: String) async {
         do {
-            let stockSymbols = try await WebService().getStockSymbols(url: url, apiKey: apiKey)
+            let stockSymbols = try await webService.getStockSymbols(url: url, apiKey: apiKey)
             self.stockSymbols = stockSymbols.map(StockSymbolViewModel.init)
         }
         catch{

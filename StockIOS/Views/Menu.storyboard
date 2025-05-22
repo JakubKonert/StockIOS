@@ -18,6 +18,7 @@
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="Theme" translatesAutoresizingMaskIntoConstraints="NO" id="stS-Zp-O6W">
                                 <rect key="frame" x="355" y="821" width="51" height="31"/>
+                                <accessibility key="accessibilityConfiguration" identifier="themeSwitch"/>
                                 <connections>
                                     <action selector="changeTheme:" destination="Y6W-OH-hqX" eventType="valueChanged" id="IZD-7y-Nfl"/>
                                 </connections>
@@ -32,6 +33,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbt-rS-lEr">
                                 <rect key="frame" x="133" y="263" width="161" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="stockSymbolsButton"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Stock Symbols" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
@@ -46,6 +48,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c76-W5-mzu">
                                 <rect key="frame" x="139" y="433" width="139" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="userManualButton"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="User Manual" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
