@@ -9,10 +9,10 @@ import Foundation
 
 struct StockPriceResponse : Decodable {
     let tradingSymbol : String
-    let date : Date
+    let date : String
     let open : Double
     let high : Double
     let low : Double
     let close : Double
-    let Volume : Double
+    let volume : Double
 }

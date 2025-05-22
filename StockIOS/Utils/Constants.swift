@@ -22,5 +22,6 @@ struct Constants {
     
     struct UrlParams{
         static let identifier = "?identifier="
+        static let offset = "?offset="
     }
 }

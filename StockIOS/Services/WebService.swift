@@ -11,6 +11,8 @@ class WebService {
     
     enum FinancialAPIError: Error {
         case invalidServerResponse
+        case unauthorizedResponse
+        case badRequestResponse
     }
     
     func getStockSymbols(url: String, apiKey: String) async throws -> [StockSymbolResponse]{
@@ -30,7 +32,6 @@ class WebService {
     
     func getStockSplits(url: String, apiKey: String, identifier: String) async throws -> [StockSplitResponse]{
         
-        
         let urlWithKeyAndParam = URL(string : url + Constants.UrlParams.identifier + identifier + apiKey)
         
         
@@ -46,6 +47,24 @@ class WebService {
         return try
         JSONDecoder().decode([StockSplitResponse].self, from: data)
         
+    }
+    
+    func getStockPrices(url: String, apiKey: String, identifier: String, offset: Int ) async throws -> [StockPriceResponse]{
+        
+        let urlWithParams = url + Constants.UrlParams.identifier + identifier + Constants.UrlParams.offset + String(offset)
+        let urlWithKeyAndParam = URL(string : urlWithParams + apiKey)
+        
+        let (data, response) = try await
+        URLSession.shared.data(from: urlWithKeyAndParam!)
+        
+        guard let httpResponse = response as?
+                HTTPURLResponse,
+              httpResponse.statusCode == 200 else {
+            throw FinancialAPIError.invalidServerResponse
+        }
+        
+        return try
+        JSONDecoder().decode([StockPriceResponse].self, from: data)
     }
     
     
