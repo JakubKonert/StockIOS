@@ -33,7 +33,7 @@ struct StockPriceViewModel {
         self.stockPrice = stockPrice
     }
     
-    var tradingSymbol: String {
+    var trading_symbol: String {
         stockPrice.tradingSymbol
     }
     
