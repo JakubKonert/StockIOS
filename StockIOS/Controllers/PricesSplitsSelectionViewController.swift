@@ -32,7 +32,7 @@ class PricesSplitsSelectionViewController: BaseViewController {
         titleLabel.widthAnchor.constraint(lessThanOrEqualToConstant: 200).isActive = true
         
         if let tradingSymbol = tradingSymbol, let registrantName = registrantName {
-            titleLabel.text = "\(tradingSymbol) \(registrantName)"
+            titleLabel.text = "\(tradingSymbol)\n\(registrantName)"
         } else {
             titleLabel.text = "Unknown"
         }
@@ -57,5 +57,29 @@ class PricesSplitsSelectionViewController: BaseViewController {
             stockSplitsButton.widthAnchor.constraint(equalToConstant: 230),
             stockSplitsButton.heightAnchor.constraint(equalToConstant: 60)
         ])
+    }
         
-    }}
+        
+    @IBAction func stockSplitsButtonTapped(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "StockSplits", bundle: nil)
+        if let splitsVC =
+            storyboard.instantiateViewController(withIdentifier: "StockSplits") as? StockSplitsViewController
+        {
+            splitsVC.tradingSymbol = tradingSymbol
+            navigationController?.pushViewController( splitsVC, animated: true)
+        }
+    }
+    
+    
+    @IBAction func stockPricesButtonTapped(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "StockPrices", bundle: nil)
+        if let pricesVC =
+            storyboard.instantiateViewController(withIdentifier: "StockPrices") as? StockPricesViewController
+        {
+            pricesVC.tradingSymbol = tradingSymbol
+            navigationController?.pushViewController(pricesVC, animated: true)
+        }
+    }
+    
+        
+    }
