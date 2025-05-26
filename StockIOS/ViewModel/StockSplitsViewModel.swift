@@ -23,7 +23,6 @@ class StockSplitsViewModel {
             webService.getStockSplits(url: url, apiKey: apiKey, identifier: identifier)
             self.stockSplits =
             stockSplits.map(StockSplitViewModel.init)
-            print(stockSplits)
         }
         catch{
             print(error)

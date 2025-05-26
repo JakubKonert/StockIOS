@@ -45,10 +45,10 @@ class StockSplitsViewController: UIViewController {
                 
                 let label = UILabel()
                 label.numberOfLines = 0
-                label.font = .systemFont(ofSize: 14, weight: .medium)
+                label.font = .systemFont(ofSize: 16, weight: .medium)
                 label.textColor = Colors.darkGreen
                 label.textAlignment = .center
-                label.text = "📅 \(split.executionDate)   ✖️ \(split.multiplier)   🧾 \(split.registrantName)"
+                label.text = "📅 \(split.executionDate)   ✖️ \((split.multiplier).rounded())   🧾 \(split.registrantName)"
 
                 label.translatesAutoresizingMaskIntoConstraints = false
                 container.addSubview(label)

@@ -38,8 +38,8 @@ struct StockPriceViewModel {
         self.stockPrice = stockPrice
     }
     
-    var trading_symbol: String {
-        stockPrice.tradingSymbol
+    var tradingSymbol: String {
+        stockPrice.trading_symbol
     }
     
     var date: String{

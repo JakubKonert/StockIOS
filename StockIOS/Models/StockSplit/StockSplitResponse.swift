@@ -9,7 +9,7 @@ import Foundation
 
 struct StockSplitResponse : Decodable {
     let trading_symbol: String
-    let central_index_key: String //because we have leading zero
+    let central_index_key: String
     let registrant_name: String
     let execution_date: String
     let multiplier: Double
