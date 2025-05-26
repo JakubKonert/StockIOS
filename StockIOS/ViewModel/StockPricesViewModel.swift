@@ -8,13 +8,18 @@ import Foundation
 
 class StockPricesViewModel {
     
+    private let webService: WebServiceProtocol
     private(set) var stockPrices: [StockPriceViewModel] = []
     
-    func populateStockPrices(url: String, apiKey: String, identifier: String, offset: Int)
+    init(webService:WebServiceProtocol = WebService()){
+        self.webService = webService
+    }
+    
+    func populateStockPrices(url: String, apiKey: String, identifier: String)
     async{
         do {
             let stockPrices = try await
-            WebService().getStockPrices(url: url, apiKey: apiKey, identifier: identifier, offset: offset)
+                webService.getStockPrices(url: url, apiKey: apiKey, identifier: identifier)
             self.stockPrices =
             stockPrices.map(StockPriceViewModel.init)
             

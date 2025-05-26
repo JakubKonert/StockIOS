@@ -9,6 +9,7 @@ import Foundation
 
 
 class StockPricesViewController: BaseViewController {
+    var tradingSymbol : String?
     override func viewDidLoad() {
         super.viewDidLoad()
     }

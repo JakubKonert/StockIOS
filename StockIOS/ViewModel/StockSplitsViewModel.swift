@@ -23,6 +23,7 @@ class StockSplitsViewModel {
             webService.getStockSplits(url: url, apiKey: apiKey, identifier: identifier)
             self.stockSplits =
             stockSplits.map(StockSplitViewModel.init)
+            print(stockSplits)
         }
         catch{
             print(error)
@@ -55,7 +56,7 @@ struct StockSplitViewModel {
         stockSplit.execution_date
     }
     
-    var multipier: Double {
+    var multiplier: Double {
         stockSplit.multiplier
     }
     

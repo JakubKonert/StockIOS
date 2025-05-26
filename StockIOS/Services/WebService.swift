@@ -49,9 +49,9 @@ class WebService: WebServiceProtocol {
         
     }
     
-    func getStockPrices(url: String, apiKey: String, identifier: String, offset: Int ) async throws -> [StockPriceResponse]{
+    func getStockPrices(url: String, apiKey: String, identifier: String) async throws -> [StockPriceResponse]{
         
-        let urlWithParams = url + Constants.UrlParams.identifier + identifier + Constants.UrlParams.offset + String(offset)
+        let urlWithParams = url + Constants.UrlParams.identifier + identifier
         let urlWithKeyAndParam = URL(string : urlWithParams + apiKey)
         
         let (data, response) = try await
