@@ -14,9 +14,7 @@ class StockSplitsViewController: UIViewController {
     private let vm = StockSplitsViewModel()
     private let scrollView = UIScrollView()
     private let stackView = UIStackView()
-    
 
-        
     
     var tradingSymbol: String?
 
@@ -46,7 +44,7 @@ class StockSplitsViewController: UIViewController {
                 let label = UILabel()
                 label.numberOfLines = 0
                 label.font = .systemFont(ofSize: 16, weight: .medium)
-                label.textColor = Colors.darkGreen
+                label.textColor = .white
                 label.textAlignment = .center
                 label.text = "📅 \(split.executionDate)   ✖️ \((split.multiplier).rounded())   🧾 \(split.registrantName)"
 
@@ -55,11 +53,11 @@ class StockSplitsViewController: UIViewController {
 
                 
                 NSLayoutConstraint.activate([
-                            label.topAnchor.constraint(equalTo: container.topAnchor, constant: 8),
-                            label.bottomAnchor.constraint(equalTo: container.bottomAnchor, constant: -8),
-                            label.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 12),
-                            label.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -12)
-                        ])
+                    label.topAnchor.constraint(equalTo: container.topAnchor, constant: 8),
+                    label.bottomAnchor.constraint(equalTo: container.bottomAnchor, constant: -8),
+                    label.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 12),
+                    label.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -12)
+                ])
                 
                 self.stackView.addArrangedSubview(container)
             }

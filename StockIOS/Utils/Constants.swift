@@ -24,4 +24,8 @@ struct Constants {
         static let identifier = "?identifier="
         static let offset = "?offset="
     }
+    
+    static let userManual = "Select a stock from a list of Stock Symbols to navigate to details page. There, you can choose to display either Stock Splits or Stock Prices history. "
+    
+    
 }
