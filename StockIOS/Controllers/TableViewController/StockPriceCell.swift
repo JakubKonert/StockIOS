@@ -38,9 +38,16 @@ class StockPriceCell: UITableViewCell{
     
     func configure(with stock: StockPriceResponse)
     {
-        let change = stock.close - stock.open
+        let open = stock.open ?? 0.0
+        let close = stock.close ?? 0.0
+        
+        
+        let change = close - open
         let formattedChange = String(format: "%.2f", change)
-        label.text = "\(stock.date) | \(formattedChange)"
+        label.numberOfLines = 2
+        label.textAlignment = .center
+        label.lineBreakMode = .byWordWrapping
+        label.text = "\(stock.date) | \(formattedChange) \nOpen: \(open) | Close: \(close)"
         
         if change > 0 {
             backgroundColor = UIColor.systemGreen.withAlphaComponent(0.1)

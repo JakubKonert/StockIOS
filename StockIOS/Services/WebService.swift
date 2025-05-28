@@ -52,7 +52,7 @@ class WebService: WebServiceProtocol {
     func getStockPrices(url: String, apiKey: String, identifier: String) async throws -> [StockPriceResponse]{
         
         let urlWithParams = url + Constants.UrlParams.identifier + identifier
-        let urlWithKeyAndParam = URL(string : urlWithParams + apiKey)
+        let urlWithKeyAndParam = URL(string: urlWithParams + apiKey)
         
         let (data, response) = try await
         URLSession.shared.data(from: urlWithKeyAndParam!)

@@ -77,6 +77,7 @@ class PricesSplitsSelectionViewController: BaseViewController {
             storyboard.instantiateViewController(withIdentifier: "StockPrices") as? StockPricesViewController
         {
             pricesVC.tradingSymbol = tradingSymbol
+            pricesVC.registrantName = registrantName
             navigationController?.pushViewController(pricesVC, animated: true)
         }
     }

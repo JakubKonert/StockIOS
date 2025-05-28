@@ -46,23 +46,23 @@ struct StockPriceViewModel {
         stockPrice.date
     }
     
-    var open: Double{
+    var open: Double?{
         stockPrice.open
     }
     
-    var high: Double {
+    var high: Double? {
         stockPrice.high
     }
     
-    var low: Double{
+    var low: Double?{
         stockPrice.low
     }
     
-    var close: Double{
+    var close: Double?{
         stockPrice.close
     }
     
-    var voulme: Double{
+    var volume: Double?{
         stockPrice.volume
     }
 }

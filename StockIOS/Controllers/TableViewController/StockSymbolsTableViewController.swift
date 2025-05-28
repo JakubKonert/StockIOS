@@ -23,8 +23,6 @@ class StockSymbolsTableViewController: UITableViewController {
     }
     
     private func configureUI(){
-        self.navigationController?.navigationBar.prefersLargeTitles = true
-        self.title = "Stock symbols"
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "StockCell")
     }
     
