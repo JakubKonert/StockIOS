@@ -7,26 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1E5F0C2DE8B68B00CC2FE0 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E5F0B2DE8B68B00CC2FE0 /* ThemeManager.swift */; };
 		3F3745962DDF83ED00922852 /* StockPricesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745952DDF83ED00922852 /* StockPricesTableViewController.swift */; };
 		3F3745982DDF990F00922852 /* StockSymbolsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745972DDF990F00922852 /* StockSymbolsViewModel.swift */; };
 		3F37459A2DDF9A6100922852 /* StockSplitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745992DDF9A6100922852 /* StockSplitsViewModel.swift */; };
 		3F37459C2DDF9C8800922852 /* WebServiceInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37459B2DDF9C8800922852 /* WebServiceInjector.swift */; };
 		3F37459E2DDFA14A00922852 /* WebServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37459D2DDFA14A00922852 /* WebServiceProtocol.swift */; };
 		3F3745A02DDFAC1B00922852 /* WebServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37459F2DDFAC1B00922852 /* WebServiceMock.swift */; };
-		3F3745A42DDFAFFA00922852 /* WebServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37459F2DDFAC1B00922852 /* WebServiceMock.swift */; };
 		3F3745AA2DDFBC6200922852 /* StockSymbolsTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745A92DDFBC6200922852 /* StockSymbolsTableViewControllerTests.swift */; };
 		3F3745AC2DDFBD3F00922852 /* PricesSplitsSelectionViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745AB2DDFBD3F00922852 /* PricesSplitsSelectionViewControllerTests.swift */; };
 		3F3745AE2DDFBE3500922852 /* StockPricesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745AD2DDFBE3400922852 /* StockPricesViewControllerTests.swift */; };
 		3F3745B02DDFBE7A00922852 /* StockSplitsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745AF2DDFBE7A00922852 /* StockSplitsViewControllerTests.swift */; };
 		3F3745B22DDFBEC200922852 /* StockSymbolsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745B12DDFBEC200922852 /* StockSymbolsViewControllerTests.swift */; };
 		3F3745B42DDFBEF400922852 /* UserManualViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745B32DDFBEF400922852 /* UserManualViewControllerTests.swift */; };
-		3F3745B92DDFC29400922852 /* MenuViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745B82DDFC29400922852 /* MenuViewControllerUITests.swift */; };
 		3F3745BA2DDFC29400922852 /* MenuViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745B82DDFC29400922852 /* MenuViewControllerUITests.swift */; };
-		3F3745BF2DDFC5C900922852 /* StockSymbolsViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745BE2DDFC5C900922852 /* StockSymbolsViewControllerUITests.swift */; };
 		3F3745C02DDFC5C900922852 /* StockSymbolsViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745BE2DDFC5C900922852 /* StockSymbolsViewControllerUITests.swift */; };
-		3F3745C22DDFC81400922852 /* PricesSplitsSelectionViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745C12DDFC81400922852 /* PricesSplitsSelectionViewControllerUITests.swift */; };
 		3F3745C32DDFC81400922852 /* PricesSplitsSelectionViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745C12DDFC81400922852 /* PricesSplitsSelectionViewControllerUITests.swift */; };
-		3F3745C52DDFC8F300922852 /* UserManualViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745C42DDFC8F300922852 /* UserManualViewControllerUITests.swift */; };
 		3F3745C62DDFC8F300922852 /* UserManualViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3745C42DDFC8F300922852 /* UserManualViewControllerUITests.swift */; };
 		3F3E23962DBEB2F900F515FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23952DBEB2F900F515FE /* AppDelegate.swift */; };
 		3F3E23982DBEB2F900F515FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23972DBEB2F900F515FE /* SceneDelegate.swift */; };
@@ -41,11 +37,7 @@
 		3F3E23D32DBEB55200F515FE /* StockSplitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23D22DBEB55200F515FE /* StockSplitsViewModel.swift */; };
 		3F3E23D72DBEB5A300F515FE /* StockSymbolsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23D62DBEB5A300F515FE /* StockSymbolsViewModel.swift */; };
 		3F3E23DB2DBEB5DA00F515FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23DA2DBEB5DA00F515FE /* Constants.swift */; };
-		3F3E23DC2DBEB5DA00F515FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23DA2DBEB5DA00F515FE /* Constants.swift */; };
-		3F3E23DD2DBEB5DA00F515FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23DA2DBEB5DA00F515FE /* Constants.swift */; };
 		3F3E23DF2DBEB62E00F515FE /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23DE2DBEB62E00F515FE /* WebService.swift */; };
-		3F3E23E02DBEB62E00F515FE /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23DE2DBEB62E00F515FE /* WebService.swift */; };
-		3F3E23E12DBEB62E00F515FE /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23DE2DBEB62E00F515FE /* WebService.swift */; };
 		3F3E23E62DBEB6EB00F515FE /* StockSymbolResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23E52DBEB6EB00F515FE /* StockSymbolResponse.swift */; };
 		3F3E23EA2DBEB78D00F515FE /* StockSymbolRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23E92DBEB78D00F515FE /* StockSymbolRequest.swift */; };
 		3F3E23EE2DBEB7DA00F515FE /* StockSplitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23ED2DBEB7DA00F515FE /* StockSplitResponse.swift */; };
@@ -53,49 +45,21 @@
 		3F3E23F62DBEB88D00F515FE /* StockPriceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23F52DBEB88D00F515FE /* StockPriceResponse.swift */; };
 		3F3E23FA2DBEB8F900F515FE /* StockPriceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23F92DBEB8F900F515FE /* StockPriceRequest.swift */; };
 		3F3E23FE2DBEB96C00F515FE /* StockSymbolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23FD2DBEB96C00F515FE /* StockSymbolsViewController.swift */; };
-		3F3E23FF2DBEB96C00F515FE /* StockSymbolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23FD2DBEB96C00F515FE /* StockSymbolsViewController.swift */; };
-		3F3E24002DBEB96C00F515FE /* StockSymbolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E23FD2DBEB96C00F515FE /* StockSymbolsViewController.swift */; };
 		3F3E24022DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E24012DBEB9B200F515FE /* StockSplitsViewController.swift */; };
-		3F3E24032DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E24012DBEB9B200F515FE /* StockSplitsViewController.swift */; };
-		3F3E24042DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E24012DBEB9B200F515FE /* StockSplitsViewController.swift */; };
 		3F50FE812DE4F67100E17D6F /* StockPriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50FE802DE4F67100E17D6F /* StockPriceCell.swift */; };
 		3FAEC6DD2DE7724900BC0884 /* StockPricesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAEC6DC2DE7724900BC0884 /* StockPricesViewModel.swift */; };
 		3FF6AF842DBFDD8D005A4653 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF832DBFDD8D005A4653 /* Menu.storyboard */; };
-		3FF6AF852DBFDD8D005A4653 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF832DBFDD8D005A4653 /* Menu.storyboard */; };
-		3FF6AF862DBFDD8D005A4653 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF832DBFDD8D005A4653 /* Menu.storyboard */; };
 		3FF6AF882DBFDDBE005A4653 /* UserManual.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF872DBFDDBE005A4653 /* UserManual.storyboard */; };
-		3FF6AF892DBFDDBE005A4653 /* UserManual.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF872DBFDDBE005A4653 /* UserManual.storyboard */; };
-		3FF6AF8A2DBFDDBE005A4653 /* UserManual.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF872DBFDDBE005A4653 /* UserManual.storyboard */; };
 		3FF6AF8C2DBFDDE9005A4653 /* StockSymbols.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF8B2DBFDDE9005A4653 /* StockSymbols.storyboard */; };
-		3FF6AF8D2DBFDDE9005A4653 /* StockSymbols.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF8B2DBFDDE9005A4653 /* StockSymbols.storyboard */; };
-		3FF6AF8E2DBFDDE9005A4653 /* StockSymbols.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF8B2DBFDDE9005A4653 /* StockSymbols.storyboard */; };
 		3FF6AF902DBFDE18005A4653 /* StockPrices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF8F2DBFDE18005A4653 /* StockPrices.storyboard */; };
-		3FF6AF912DBFDE18005A4653 /* StockPrices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF8F2DBFDE18005A4653 /* StockPrices.storyboard */; };
-		3FF6AF922DBFDE18005A4653 /* StockPrices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF8F2DBFDE18005A4653 /* StockPrices.storyboard */; };
 		3FF6AF942DBFDE37005A4653 /* StockSplits.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF932DBFDE37005A4653 /* StockSplits.storyboard */; };
-		3FF6AF952DBFDE37005A4653 /* StockSplits.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF932DBFDE37005A4653 /* StockSplits.storyboard */; };
-		3FF6AF962DBFDE37005A4653 /* StockSplits.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AF932DBFDE37005A4653 /* StockSplits.storyboard */; };
 		3FF6AFA02DBFE11E005A4653 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AF9F2DBFE11E005A4653 /* MenuViewController.swift */; };
-		3FF6AFA12DBFE11E005A4653 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AF9F2DBFE11E005A4653 /* MenuViewController.swift */; };
-		3FF6AFA22DBFE11E005A4653 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AF9F2DBFE11E005A4653 /* MenuViewController.swift */; };
 		3FF6AFA42DBFF502005A4653 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA32DBFF502005A4653 /* BaseViewController.swift */; };
-		3FF6AFA52DBFF502005A4653 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA32DBFF502005A4653 /* BaseViewController.swift */; };
-		3FF6AFA62DBFF502005A4653 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA32DBFF502005A4653 /* BaseViewController.swift */; };
 		3FF6AFA82DC00DDA005A4653 /* UserManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */; };
-		3FF6AFA92DC00DDA005A4653 /* UserManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */; };
-		3FF6AFAA2DC00DDA005A4653 /* UserManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFA72DC00DDA005A4653 /* UserManualViewController.swift */; };
 		3FF6AFB12DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB02DC901A6005A4653 /* StockSymbolsTableViewController.swift */; };
-		3FF6AFB22DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB02DC901A6005A4653 /* StockSymbolsTableViewController.swift */; };
-		3FF6AFB32DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB02DC901A6005A4653 /* StockSymbolsTableViewController.swift */; };
 		3FF6AFB92DC94BDE005A4653 /* PricesSplitsSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB82DC94BDE005A4653 /* PricesSplitsSelection.storyboard */; };
-		3FF6AFBA2DC94BDE005A4653 /* PricesSplitsSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB82DC94BDE005A4653 /* PricesSplitsSelection.storyboard */; };
-		3FF6AFBB2DC94BDE005A4653 /* PricesSplitsSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6AFB82DC94BDE005A4653 /* PricesSplitsSelection.storyboard */; };
 		3FF6AFBD2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFBC2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift */; };
-		3FF6AFBE2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFBC2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift */; };
-		3FF6AFBF2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFBC2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift */; };
 		3FF6AFC12DC954CE005A4653 /* StockPricesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFC02DC954CE005A4653 /* StockPricesViewController.swift */; };
-		3FF6AFC22DC954CE005A4653 /* StockPricesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFC02DC954CE005A4653 /* StockPricesViewController.swift */; };
-		3FF6AFC32DC954CE005A4653 /* StockPricesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AFC02DC954CE005A4653 /* StockPricesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F1E5F0B2DE8B68B00CC2FE0 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		3F3745952DDF83ED00922852 /* StockPricesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPricesTableViewController.swift; sourceTree = "<group>"; };
 		3F3745972DDF990F00922852 /* StockSymbolsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSymbolsViewModel.swift; sourceTree = "<group>"; };
 		3F3745992DDF9A6100922852 /* StockSplitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSplitsViewModel.swift; sourceTree = "<group>"; };
@@ -285,7 +250,6 @@
 		3F3E23AE2DBEB2FA00F515FE /* StockIOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				3F3745B72DDFC26700922852 /* StoryboardTests */,
 				3F3745A62DDFBBE700922852 /* ControllerTests */,
 				3F3745A52DDFBAE100922852 /* ViewModelTests */,
 				3F3E23AF2DBEB2FA00F515FE /* StockIOSTests.swift */,
@@ -297,6 +261,7 @@
 		3F3E23B82DBEB2FA00F515FE /* StockIOSUITests */ = {
 			isa = PBXGroup;
 			children = (
+				3F3745B72DDFC26700922852 /* StoryboardTests */,
 				3F3E23B92DBEB2FA00F515FE /* StockIOSUITests.swift */,
 				3F3E23BB2DBEB2FA00F515FE /* StockIOSUITestsLaunchTests.swift */,
 			);
@@ -349,6 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				3F3E23DA2DBEB5DA00F515FE /* Constants.swift */,
+				3F1E5F0B2DE8B68B00CC2FE0 /* ThemeManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -533,12 +499,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF6AF8D2DBFDDE9005A4653 /* StockSymbols.storyboard in Resources */,
-				3FF6AF852DBFDD8D005A4653 /* Menu.storyboard in Resources */,
-				3FF6AF892DBFDDBE005A4653 /* UserManual.storyboard in Resources */,
-				3FF6AF912DBFDE18005A4653 /* StockPrices.storyboard in Resources */,
-				3FF6AFBA2DC94BDE005A4653 /* PricesSplitsSelection.storyboard in Resources */,
-				3FF6AF952DBFDE37005A4653 /* StockSplits.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,12 +506,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF6AF8E2DBFDDE9005A4653 /* StockSymbols.storyboard in Resources */,
-				3FF6AF862DBFDD8D005A4653 /* Menu.storyboard in Resources */,
-				3FF6AF8A2DBFDDBE005A4653 /* UserManual.storyboard in Resources */,
-				3FF6AF922DBFDE18005A4653 /* StockPrices.storyboard in Resources */,
-				3FF6AFBB2DC94BDE005A4653 /* PricesSplitsSelection.storyboard in Resources */,
-				3FF6AF962DBFDE37005A4653 /* StockSplits.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +543,7 @@
 				3F3E23982DBEB2F900F515FE /* SceneDelegate.swift in Sources */,
 				3F3E23EA2DBEB78D00F515FE /* StockSymbolRequest.swift in Sources */,
 				3F3E23D32DBEB55200F515FE /* StockSplitsViewModel.swift in Sources */,
+				3F1E5F0C2DE8B68B00CC2FE0 /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,29 +552,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3745B02DDFBE7A00922852 /* StockSplitsViewControllerTests.swift in Sources */,
-				3FF6AFB22DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */,
-				3FF6AFA12DBFE11E005A4653 /* MenuViewController.swift in Sources */,
-				3F3E24032DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */,
-				3FF6AFC22DC954CE005A4653 /* StockPricesViewController.swift in Sources */,
-				3FF6AFA92DC00DDA005A4653 /* UserManualViewController.swift in Sources */,
 				3F3745B22DDFBEC200922852 /* StockSymbolsViewControllerTests.swift in Sources */,
-				3FF6AFA52DBFF502005A4653 /* BaseViewController.swift in Sources */,
 				3F3745A02DDFAC1B00922852 /* WebServiceMock.swift in Sources */,
 				3F37459A2DDF9A6100922852 /* StockSplitsViewModel.swift in Sources */,
-				3F3745B92DDFC29400922852 /* MenuViewControllerUITests.swift in Sources */,
 				3F3745AE2DDFBE3500922852 /* StockPricesViewControllerTests.swift in Sources */,
 				3F3E23B02DBEB2FA00F515FE /* StockIOSTests.swift in Sources */,
-				3F3745C22DDFC81400922852 /* PricesSplitsSelectionViewControllerUITests.swift in Sources */,
-				3FF6AFBE2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift in Sources */,
 				3F3745AC2DDFBD3F00922852 /* PricesSplitsSelectionViewControllerTests.swift in Sources */,
-				3F3745C52DDFC8F300922852 /* UserManualViewControllerUITests.swift in Sources */,
-				3F3E23E02DBEB62E00F515FE /* WebService.swift in Sources */,
 				3F3745AA2DDFBC6200922852 /* StockSymbolsTableViewControllerTests.swift in Sources */,
-				3F3E23FF2DBEB96C00F515FE /* StockSymbolsViewController.swift in Sources */,
 				3F3745B42DDFBEF400922852 /* UserManualViewControllerTests.swift in Sources */,
-				3F3745BF2DDFC5C900922852 /* StockSymbolsViewControllerUITests.swift in Sources */,
 				3F3745982DDF990F00922852 /* StockSymbolsViewModel.swift in Sources */,
-				3F3E23DC2DBEB5DA00F515FE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,20 +570,9 @@
 			files = (
 				3F3745C32DDFC81400922852 /* PricesSplitsSelectionViewControllerUITests.swift in Sources */,
 				3F3745C62DDFC8F300922852 /* UserManualViewControllerUITests.swift in Sources */,
-				3F3745A42DDFAFFA00922852 /* WebServiceMock.swift in Sources */,
-				3F3E23E12DBEB62E00F515FE /* WebService.swift in Sources */,
-				3FF6AFA22DBFE11E005A4653 /* MenuViewController.swift in Sources */,
-				3FF6AFBF2DC94C10005A4653 /* PricesSplitsSelectionViewController.swift in Sources */,
-				3F3E23DD2DBEB5DA00F515FE /* Constants.swift in Sources */,
-				3F3E24002DBEB96C00F515FE /* StockSymbolsViewController.swift in Sources */,
-				3FF6AFC32DC954CE005A4653 /* StockPricesViewController.swift in Sources */,
-				3F3E24042DBEB9B200F515FE /* StockSplitsViewController.swift in Sources */,
 				3F3745BA2DDFC29400922852 /* MenuViewControllerUITests.swift in Sources */,
-				3FF6AFAA2DC00DDA005A4653 /* UserManualViewController.swift in Sources */,
-				3FF6AFB32DC901A6005A4653 /* StockSymbolsTableViewController.swift in Sources */,
 				3F3E23BC2DBEB2FA00F515FE /* StockIOSUITestsLaunchTests.swift in Sources */,
 				3F3E23BA2DBEB2FA00F515FE /* StockIOSUITests.swift in Sources */,
-				3FF6AFA62DBFF502005A4653 /* BaseViewController.swift in Sources */,
 				3F3745C02DDFC5C900922852 /* StockSymbolsViewControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -806,7 +736,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StockIOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/StockIOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -833,7 +763,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StockIOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/StockIOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

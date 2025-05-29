@@ -5,11 +5,16 @@
 //  Created by student on 22/05/2025.
 //
 
+@testable import StockIOS
 import XCTest
 import Foundation
-@testable import StockIOS
+
 
 class WebServiceMock: WebServiceProtocol {
+    func getStockPrices(url: String, apiKey: String, identifier: String) async throws -> [StockPriceResponse] {
+        return []
+    }
+    
     func getStockSymbols(url: String, apiKey: String) async throws -> [StockSymbolResponse] {
         return [
             StockSymbolResponse(trading_symbol:"TEST", registrant_name:"MOCK")]

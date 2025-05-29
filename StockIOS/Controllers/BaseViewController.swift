@@ -11,11 +11,11 @@ import UIKit
 class BaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*
-        let bgImage = UIImageView(frame: view.bounds)
-        bgImage.image = UIImage(named: "background")
-        bgImage.contentMode = .scaleAspectFit
-        view.insertSubview(bgImage, at: 0)
-         */
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        overrideUserInterfaceStyle = ThemeManager.current == .light ? .light : .dark        
     }
 }

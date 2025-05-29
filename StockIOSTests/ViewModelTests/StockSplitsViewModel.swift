@@ -5,9 +5,10 @@
 //  Created by student on 22/05/2025.
 //
 
+@testable import StockIOS
 import XCTest
 import Foundation
-@testable import StockIOS
+
 
 final class StockSplitsViewModelTests: XCTestCase {
 
@@ -26,7 +27,7 @@ final class StockSplitsViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.centralIndexKey, "00007890")
         XCTAssertEqual(viewModel.registrantName, "NVIDIA Corp.")
         XCTAssertEqual(viewModel.executionDate, "2023-12-15")
-        XCTAssertEqual(viewModel.multipier, 2.0)
+        XCTAssertEqual(viewModel.multiplier, 2.0)
     }
 
     func testPopulateStockSplitsLoadsData() async {

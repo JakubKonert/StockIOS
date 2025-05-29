@@ -17,20 +17,37 @@ class MenuViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         setupModeSwitch()
         setupButtons()
         
     }
     
-    @IBAction func changeTheme(_ sender: Any) {
-        if themeSwitch.isOn == true{
-            overrideUserInterfaceStyle = .light
-        }
-        else {
-            overrideUserInterfaceStyle = .dark
-        }
+    override func viewWillAppear(_ animated: Bool)
+    {
+        super.viewWillAppear(animated)
+        themeSwitch.isOn = ThemeManager.current == .light
         
     }
+    
+    @IBAction func changeTheme(_ sender: Any) {
+        let selectedTheme: AppTheme = themeSwitch.isOn ? .light : .dark
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+            ThemeManager.current = selectedTheme
+
+            if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+               let delegate = windowScene.delegate as? SceneDelegate,
+               let window = delegate.window {
+
+                let storyboard = UIStoryboard(name: "Menu", bundle: nil)
+                let menuVC = storyboard.instantiateViewController(withIdentifier: "MenuViewController")
+
+                let nav = UINavigationController(rootViewController: menuVC)
+                window.rootViewController = nav
+                window.makeKeyAndVisible()
+            }
+        }    }
     
     
     @IBAction func goToStockSymbols(_ sender: Any) {
@@ -47,11 +64,10 @@ class MenuViewController: BaseViewController {
         if let userManualViewController = storyboard.instantiateViewController(withIdentifier: "UserManualViewController") as? UserManualViewController {
             
             navigationController?.pushViewController(userManualViewController, animated: true)
-        }    }
-    
-    
-    
-    
+        }
+        
+    }
+
     
     func setupModeSwitch()
     {

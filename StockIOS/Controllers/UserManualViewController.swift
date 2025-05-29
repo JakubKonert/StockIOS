@@ -15,9 +15,9 @@ class UserManualViewController: UIViewController
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
         manualText.isEditable = false
-        manualText.isSelectable = true
+        manualText.isSelectable = false
         manualText.isScrollEnabled = true
 
         manualText.backgroundColor = UIColor.systemGreen.withAlphaComponent(0.15)
@@ -28,7 +28,7 @@ class UserManualViewController: UIViewController
         manualText.layer.cornerRadius = 12
         manualText.layer.masksToBounds = true
 
-        manualText.textContainerInset = UIEdgeInsets(top: 16, left: 20, bottom: 16, right: 20)
+        manualText.textContainerInset = UIEdgeInsets(top: 15, left: 15, bottom: 15, right: 15)
 
         manualText.text = Constants.userManual
     }

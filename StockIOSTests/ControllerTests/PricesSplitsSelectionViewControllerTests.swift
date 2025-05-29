@@ -5,9 +5,10 @@
 //  Created by student on 22/05/2025.
 //
 
+@testable import StockIOS
 import Foundation
 import XCTest
-@testable import StockIOS
+
 
 final class PricesSplitsSelectionViewControllerTests: XCTestCase {
     func testTitleLabelShowsCorrectText() {

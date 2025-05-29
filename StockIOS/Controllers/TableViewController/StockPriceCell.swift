@@ -50,10 +50,10 @@ class StockPriceCell: UITableViewCell{
         label.text = "\(stock.date) | \(formattedChange) \nOpen: \(open) | Close: \(close)"
         
         if change > 0 {
-            backgroundColor = UIColor.systemGreen.withAlphaComponent(0.1)
+            backgroundColor = UIColor.systemGreen.withAlphaComponent(0.5)
         }
         else if change < 0 {
-            backgroundColor = UIColor.systemRed.withAlphaComponent(0.1)
+            backgroundColor = UIColor.systemRed.withAlphaComponent(0.5)
         }
         else {
             backgroundColor = UIColor.systemBackground
