@@ -29,6 +29,8 @@ class StockSplitsViewController: UIViewController {
     private func populateStockSplits() async {
         await vm.populateStockSplits(url: Constants.Urls.stockSplitsUrl, apiKey: Constants.APIcredentials.apiKeyForQueryParams, identifier: tradingSymbol ?? "")
         DispatchQueue.main.async{
+            self.noDataLabel.isHidden =
+                !self.vm.stockSplits.isEmpty
             self.displaySplits()
         }
     }
@@ -37,7 +39,7 @@ class StockSplitsViewController: UIViewController {
             for split in vm.stockSplits {
                 
                 let container = UIView()
-                container.backgroundColor = UIColor.systemGreen.withAlphaComponent(0.15)
+                container.backgroundColor = UIColor.systemGreen.withAlphaComponent(0.5)
                 container.layer.cornerRadius = 16
                 container.layer.masksToBounds = true
                 
@@ -50,7 +52,6 @@ class StockSplitsViewController: UIViewController {
 
                 label.translatesAutoresizingMaskIntoConstraints = false
                 container.addSubview(label)
-
                 
                 NSLayoutConstraint.activate([
                     label.topAnchor.constraint(equalTo: container.topAnchor, constant: 8),
@@ -71,6 +72,12 @@ class StockSplitsViewController: UIViewController {
         stackView.spacing = 12
         stackView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.addSubview(stackView)
+        
+        scrollView.addSubview(noDataLabel)
+        NSLayoutConstraint.activate([
+            noDataLabel.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor),
+            noDataLabel.centerYAnchor.constraint(equalTo: scrollView.centerYAnchor)
+        ])
 
         NSLayoutConstraint.activate([
             scrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
@@ -84,7 +91,20 @@ class StockSplitsViewController: UIViewController {
             stackView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor, constant: -16),
             stackView.widthAnchor.constraint(equalTo: scrollView.widthAnchor, constant: -32)
         ])
+        
+        
     }
+    
+    private let noDataLabel: UILabel = {
+        let label = UILabel()
+        label.text = "No data"
+        label.textAlignment = .center
+        label.textColor = .secondaryLabel
+        label.font = UIFont.systemFont(ofSize: 18, weight: .medium)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.isHidden = true
+        return  label
+    }()
     
    
     
